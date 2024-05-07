@@ -3,7 +3,7 @@ description: The official site of StayCool21
 baseurl: ""
 url: https://staycool21.github.io/
 
-theme: cvless
+remote_theme: cvless
 
 # site settings
 taglong: The official site of StayCool21
