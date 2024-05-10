@@ -158,61 +158,71 @@
   text-rendering: optimizeLegibility;
 }
 
-.chakra-petch-light {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-Light.ttf') format('ttf');
   font-weight: 300;
   font-style: normal;
 }
 
-.chakra-petch-regular {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-Regular.ttf') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
 
-.chakra-petch-medium {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-Medium.ttf') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
 
-.chakra-petch-semibold {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-SemiBold.ttf') format('ttf');
   font-weight: 600;
   font-style: normal;
 }
 
-.chakra-petch-bold {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-Bold.ttf') format('ttf');
   font-weight: 700;
   font-style: normal;
 }
 
-.chakra-petch-light-italic {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-LightItalic.ttf') format('ttf');
   font-weight: 300;
   font-style: italic;
 }
 
-.chakra-petch-regular-italic {
+@font-face {
   font-family: "Chakra Petch", sans-serif;
+  src: url('../fonts/ChakraPetch-Italic.ttf') format('ttf');
   font-weight: 400;
   font-style: italic;
 }
 
-.chakra-petch-medium-italic {
+@font-face {
+  src: url('../fonts/ChakraPetch-MediumItalic.ttf') format('ttf');
   font-family: "Chakra Petch", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
 
-.chakra-petch-semibold-italic {
+@font-face {
+  src: url('../fonts/ChakraPetch-SemiBoldItalic.ttf') format('ttf');
   font-family: "Chakra Petch", sans-serif;
   font-weight: 600;
   font-style: italic;
 }
 
-.chakra-petch-bold-italic {
+@font-face {
+  src: url('../fonts/ChakraPetch-BoldItalic.ttf') format('ttf');
   font-family: "Chakra Petch", sans-serif;
   font-weight: 700;
   font-style: italic;
