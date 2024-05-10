@@ -32,7 +32,7 @@ Here's a couple of my proudest acheievements (if I do say so myself...)
     + **Output:** Formatted, converted article in .txt format, as well as a concise summary of each article powered by OpenAI's LLM.
 
 * [**Fruit Ninka**](https://github.com/StayCool21/Fruit-Ninka) (Fall/Winter 2023)
-    ![fruit-ninka logo](/assets/files/FruitNinkasmallrez.png/=200x200)
+    ![fruit-ninka logo](/assets/files/FruitNinkasmallrez.png/)
     + Fruit Ninja clone/parody using Unity
     ![gameplay-image](/assets/files/NormGamePlay.JPG)
 
