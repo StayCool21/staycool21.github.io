@@ -1,229 +1,159 @@
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-Light.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 300;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-LightItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 300;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-Regular.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-Italic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-Medium.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 500;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-MediumItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 500;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-Bold.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla';
-//   src: url('../assets/fonts/Piazzolla-BoldItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-Light.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 300;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-LightItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 300;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-Regular.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-Italic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-Medium.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 500;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-MediumItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 500;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-Bold.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Piazzolla SC';
-//   src: url('../assets/fonts/PiazzollaSC-BoldItalic.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Hack';
-//   src: url('../assets/fonts/hack-regular-subset.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Hack';
-//   src: url('../assets/fonts/hack-italic-subset.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 400;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Hack';
-//   src: url('../assets/fonts/hack-bold-subset.woff2') format('woff2');
-//   font-style: normal;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
-// @font-face {
-//   font-family: 'Hack';
-//   src: url('../assets/fonts/hack-bolditalic-subset.woff2') format('woff2');
-//   font-style: italic;
-//   font-weight: 700;
-//   text-rendering: optimizeLegibility;
-// }
-
 @font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-Light.ttf') format('truetype');
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-Light.woff2') format('woff2');
+  font-style: normal;
   font-weight: 300;
-  font-style: normal;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-SemiBold.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-Bold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-LightItalic.ttf') format('truetype');
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-LightItalic.woff2') format('woff2');
+  font-style: italic;
   font-weight: 300;
-  font-style: italic;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  font-family: "Chakra Petch";
-  src: url('../assets/fonts/ChakraPetch-Italic.ttf') format('truetype');
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-Regular.woff2') format('woff2');
+  font-style: normal;
   font-weight: 400;
-  font-style: italic;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  src: url('../assets/fonts/ChakraPetch-MediumItalic.ttf') format('truetype');
-  font-family: "Chakra Petch";
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-Medium.woff2') format('woff2');
+  font-style: normal;
   font-weight: 500;
-  font-style: italic;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  src: url('../assets/fonts/ChakraPetch-SemiBoldItalic.ttf') format('truetype');
-  font-family: "Chakra Petch";
-  font-weight: 600;
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-MediumItalic.woff2') format('woff2');
   font-style: italic;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
 }
 
 @font-face {
-  src: url('../assets/fonts/ChakraPetch-BoldItalic.ttf') format('truetype');
-  font-family: "Chakra Petch";
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-Bold.woff2') format('woff2');
+  font-style: normal;
   font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla';
+  src: url('../fonts/Piazzolla-BoldItalic.woff2') format('woff2');
   font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-LightItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-Italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-MediumItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Piazzolla SC';
+  src: url('../fonts/PiazzollaSC-BoldItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-regular-subset.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-italic-subset.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bold-subset.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('../fonts/hack-bolditalic-subset.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
 }
