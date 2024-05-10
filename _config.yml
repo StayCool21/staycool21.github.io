@@ -1,12 +1,12 @@
 title: StayCool21
-description: The official site of StayCool21
+description: CS major @ SIUE
 baseurl: ""
 url: https://staycool21.github.io
 
 theme: cvless
 
 # site settings
-taglong: The official site of StayCool21
+taglong: CS major @ SIUE
 tagshort: Jekyll theme
 
 # author settings
