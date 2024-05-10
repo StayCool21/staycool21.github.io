@@ -1,30 +1,25 @@
 title: StayCool21
 description: The official site of StayCool21
 baseurl: ""
-url: https://staycool21.github.io/
+url: https://staycool21.github.io
 
-remote_theme: cvless
+theme: cvless
 
 # site settings
 taglong: The official site of StayCool21
 tagshort: Jekyll theme
 
 # author settings
-author:
-  name: Luke Welsh
-  email: username@domain.com
+author: StayCool21
+name: Luke Welsh
+email: lwelsh@siue.edu
 photo: assets/files/profilephoto.png
-address: Foobar Hall 1.23
-phone: +1 234 567 890
+address: STL
+# phone: +1 234 567 890
 
 # social media links
 social:
-  facebook: username
-  github: username
-  instagram: username
-  linkedin: username
-  stackoverflow: 0000000/username
-  x: username
+  github: StayCool21
 
 # build settings
 permalink: pretty

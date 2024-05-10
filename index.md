@@ -5,14 +5,13 @@ title: Home
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Hello, fellow nerds 👋. Thanks for giving my site a look!
 
-This is the home page. It can be used for a short introduction. [Click here](cv) to see the full CV, and [here](assets/files/cv.pdf) to download a print version. The theme also ships with a blog: [click here](posts) to scroll posts from the most recent. Finally, [click here](404) to see a page that can't be found.
+I'm a computer science major and a racing fan, looking to enhance NR2003, one of the greatest racing sims ever developed. I'm also currently experimenting with AWS and Firebase for web development. 
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+[Click here](cv) to view my résumé, and [here](https://drive.google.com/file/d/1yRzwOtNd4SAWK5yejcnW1IQZaES6J2e5/view?usp=sharing) to download a print version. 
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I also have a blog: [click here](posts) to scroll posts from the most recent. 
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
 
 {% include archive.html %}

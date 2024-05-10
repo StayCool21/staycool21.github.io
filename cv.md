@@ -1,21 +1,44 @@
 ---
 layout: cv
-title: CV
+title: Résumé
 ---
 
-# Curriculum Vitæ
+# Résumé
 
 {% include contact.html %}
 
-## Section
+If you'd like a PDF version of my résumé, you can find it [here](https://drive.google.com/file/d/1yRzwOtNd4SAWK5yejcnW1IQZaES6J2e5/view?usp=sharing).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+## Work Experience
 
-* Ut enim ad minim veniam
-* Quis nostrud exercitation
-* Ullamco laboris nisi
-* Ut aliquip ex ea commodo consequat
+At this point, I've been blessed to have been able to intern at a couple companies.
 
-### Subsection
+* Northrop Grumman - Software Engineering Intern (Summer 2023)
+    + **What I learned:** Agile/Scrum methodology, the dynamics of working on a team.
+    + **What I did:** Document generation software with Visual Basic, data backup with Python
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+* Walmart Global Tech - Software Engineering Intern (Summer 2024)
+    + **What I learned:** TBD (I start there soon...)
+    + **What I did:** Something with SRE (Site Relability Engineering)
+
+## Projects
+If you'd like to see what I'm currently working on, feel free to give my [GitHub profile](https://github.com/StayCool21) a look.
+
+Here's a couple of my proudest acheievements (if I do say so myself...)
+
+* [**Webscraper-RACER.com**](https://github.com/StayCool21/CS325_WebScraper) (Spring 2024)
+    + Python webscraper/summarizer of RACER.com news articles, using BeautifulSoup and OpenAI packages.
+    + **Input:** Valid RACER.com news article
+    + **Output:** Formatted, converted article in .txt format, as well as a concise summary of each article powered by OpenAI's LLM.
+
+* [**Fruit Ninka**](https://github.com/StayCool21/Fruit-Ninka) (Fall/Winter 2023)
+    ![fruit-ninka logo](/assets/files/FruitNinkasmallrez.png/=200x200)
+    + Fruit Ninja clone/parody using Unity
+    ![gameplay-image](/assets/files/NormGamePlay.JPG)
+
+* [**Course Scheduling Website**](https://github.com/StayCool21/CS234-Semester-Project) (Fall 2023)
+    + Course scheduling website that runs locally on your PC.
+    + Using PHP/CSS/small amounts of JS
+    + Developed during my web development course.
+    ![registration-ex](/assets/files/registernormal.JPG)
+
