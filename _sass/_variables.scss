@@ -1,5 +1,5 @@
 :root {
-  --type-serif: "Piazzolla", serif;
+  --type-serif: "Chakra Petch Medium", serif;
   --type-caps: "Piazzolla SC", serif;
   --type-mono: "Hack", monospace;
   --type-size: 18px;
@@ -7,7 +7,7 @@
   --type-height: 1.4;
   --type-numeric: oldstyle-nums proportional-nums;
   --color-particles-text: var(--oc-gray-1);
-  --color-particles-background: var(--oc-gray-9); // we could use #023635
+  --color-particles-background: #023635; // we could use #023635
 }
 
 html,
