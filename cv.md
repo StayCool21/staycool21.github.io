@@ -25,6 +25,7 @@ At this point, I've been blessed to have been able to intern at a couple compani
 If you'd like to see what I'm currently working on, feel free to give my [GitHub profile](https://github.com/StayCool21) a look.
 
 Here's a couple of my proudest acheievements (if I do say so myself...)
+<p style="font-family: var(--type-sans);">This is a sample text using the Chakra Petch font.</p>
 
 * [**Webscraper-RACER.com**](https://github.com/StayCool21/CS325_WebScraper) (Spring 2024)
     + Python webscraper/summarizer of RACER.com news articles, using BeautifulSoup and OpenAI packages.
