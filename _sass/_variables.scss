@@ -24,10 +24,10 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-  --color-background: var(#023635);
+  --color-background: var(--oc-gray-9);
   --color-text: var(--oc-gray-3);
   --color-heading: var(--oc-gray-3);
-  --color-link: #4FA6FF;
+  --color-link:#4FA6FF;
   --color-chunk: var(--oc-gray-8);
   --color-mark: var(--oc-gray-8);
   --color-border: var(--oc-gray-7);
