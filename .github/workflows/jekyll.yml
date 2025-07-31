@@ -47,11 +47,11 @@ jobs:
           ruby -v
       - name: Setup Ruby Gems
         run: |
-          gem install bundler --user-install
-          export GEM_PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')"
-          export PATH="$GEM_PATH/bin:$PATH"
-          echo "$GEM_PATH/bin" >> $GITHUB_PATH
-          bundle install --path vendor/bundle
+            gem install bundler --user-install
+            echo "GEM_PATH=$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')" >> $GITHUB_ENV
+            echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
+      - name: Install dependencies
+        run: bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
