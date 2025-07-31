@@ -51,10 +51,10 @@ jobs:
             echo "GEM_PATH=$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')" >> $GITHUB_ENV
             echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
       - name: Install dependencies
+        env:
+          GEM_PATH: ${{ env.GEM_PATH }}
+          PATH: ${{ env.PATH }}
         run: |
-          export GEM_PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')"
-          export PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
-          source ~/.bashrc
           bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
