@@ -46,7 +46,10 @@ jobs:
           fi
           ruby -v
       - name: Setup Ruby Gems
-        run: gem install bundler --user-install && bundle install --path vendor/bundle
+        run: |
+          gem install bundler --user-install
+          export PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
+          bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
