@@ -46,7 +46,7 @@ jobs:
           fi
           ruby -v
       - name: Setup Ruby Gems
-        run: gem install bundler && bundle install
+        run: gem install bundler --user-install && bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
