@@ -48,9 +48,9 @@ jobs:
       - name: Setup Ruby Gems
         run: |
           gem install bundler --user-install
-          export PATH="$HOME/.local/share/gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
-          echo "$HOME/.local/share/gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
-          echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
+          export GEM_PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')"
+          export PATH="$GEM_PATH/bin:$PATH"
+          echo "$GEM_PATH/bin" >> $GITHUB_PATH
           bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
