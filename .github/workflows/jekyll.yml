@@ -52,6 +52,8 @@ jobs:
             echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
       - name: Install dependencies
         run: bundle install --path vendor/bundle
+        env:
+          PATH: $HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
