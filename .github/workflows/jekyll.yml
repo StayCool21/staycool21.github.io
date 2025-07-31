@@ -54,6 +54,7 @@ jobs:
         run: |
           export GEM_PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')"
           export PATH="$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
+          source ~/.bashrc
           bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
