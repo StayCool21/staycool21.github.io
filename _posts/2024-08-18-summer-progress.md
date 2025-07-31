@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer Update
-lead: Summer Progress (and interning at Wally World as a SWE)
+lead: Summer Progress (and interning at Walmart as a SWE)
 ---
 Unfortunately to us college students, summer break has come and gone. However, I don't feel very sad about it--it's just another step in my journey to make it as a SWE. It probably also helps that I completed my internship at Walmart Global Tech, providing solutions for the [number 1 Fortune 500 company](https://fortune.com/ranking/fortune500/). I also made some good progress on helping the leading CS club at SIUE, CAOS (you can find our latest progress on our website [here](https://caos.cs.siue.edu/)). 
 
