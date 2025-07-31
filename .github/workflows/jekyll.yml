@@ -48,6 +48,7 @@ jobs:
       - name: Setup Ruby Gems
         run: |
           gem install bundler --user-install
+          export PATH="$HOME/.local/share/gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin:$PATH"
           echo "$HOME/.local/share/gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
           echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
           bundle install --path vendor/bundle
