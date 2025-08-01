@@ -31,6 +31,7 @@ jobs:
           gem install bundler -v 2.5.10 --user-install
           echo "GEM_HOME=$HOME/.gem" >> $GITHUB_ENV
           echo "$HOME/.gem/bin" >> $GITHUB_PATH
+          export GEM_HOME="$HOME/.gem"
           export PATH="$HOME/.gem/bin:$PATH"
           bundle config set --local path 'vendor/bundle'
           bundle _2.5.10_ install
