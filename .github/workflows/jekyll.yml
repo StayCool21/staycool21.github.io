@@ -26,13 +26,14 @@ jobs:
       - name: Check Ruby version
         run: ruby -v
 
-      - name: Install Bundler and dependencies
+      - name: Install Bundler and project gems
         run: |
-          gem install bundler --user-install
-          RUBY_GEM_PATH="$(ruby -e 'puts Gem.user_dir')/bin"
-          echo "PATH=$RUBY_GEM_PATH:$PATH" >> $GITHUB_ENV
-          export PATH="$RUBY_GEM_PATH:$PATH"
-          bundle install --path vendor/bundle
+          gem install bundler -v 2.5.10 --user-install
+          echo "GEM_HOME=$HOME/.gem" >> $GITHUB_ENV
+          echo "$HOME/.gem/bin" >> $GITHUB_PATH
+          export PATH="$HOME/.gem/bin:$PATH"
+          bundle config set --local path 'vendor/bundle'
+          bundle _2.5.10_ install
 
       - name: Setup Pages
         id: pages
@@ -40,7 +41,6 @@ jobs:
 
       - name: Build with Jekyll
         run: |
-          export PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
