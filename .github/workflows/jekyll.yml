@@ -46,10 +46,7 @@ jobs:
           fi
           ruby -v
       - name: Setup Ruby Gems
-        run: |
-            gem install bundler --user-install
-            echo "GEM_PATH=$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')" >> $GITHUB_ENV
-            echo "$HOME/.gem/ruby/$(ruby -e 'print RUBY_VERSION')/bin" >> $GITHUB_PATH
+        run: gem install bundler
       - name: Install dependencies
         env:
           GEM_PATH: ${{ env.GEM_PATH }}
