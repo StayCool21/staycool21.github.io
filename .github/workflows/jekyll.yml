@@ -26,13 +26,14 @@ jobs:
       - name: Check Ruby version
         run: ruby -v
 
-      - name: Install Bundler and project gems
+      - name: Install Bundler
         run: |
           gem install bundler -v 2.5.10 --user-install
           echo "GEM_HOME=$HOME/.gem" >> $GITHUB_ENV
           echo "$HOME/.gem/bin" >> $GITHUB_PATH
-          export GEM_HOME="$HOME/.gem"
-          export PATH="$HOME/.gem/bin:$PATH"
+      
+      - name: Install project gems
+        run: |
           bundle config set --local path 'vendor/bundle'
           bundle _2.5.10_ install
 
