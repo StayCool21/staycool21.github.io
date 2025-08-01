@@ -20,21 +20,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set Ruby Version
+      - name: Check Ruby version
         run: ruby -v
 
-      - name: Install Bundler
+      - name: Install Bundler and dependencies
         run: |
           gem install bundler --user-install
-          export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
-          echo "PATH=$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH" >> $GITHUB_ENV
-
-      - name: Install dependencies
-        run: |
-          export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
+          RUBY_GEM_PATH="$(ruby -e 'puts Gem.user_dir')/bin"
+          echo "PATH=$RUBY_GEM_PATH:$PATH" >> $GITHUB_ENV
+          export PATH="$RUBY_GEM_PATH:$PATH"
           bundle install --path vendor/bundle
 
       - name: Setup Pages
@@ -43,7 +40,7 @@ jobs:
 
       - name: Build with Jekyll
         run: |
-          export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"
+          export PATH="$(ruby -e 'puts Gem.user_dir')/bin:$PATH"
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
