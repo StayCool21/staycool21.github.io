@@ -46,7 +46,7 @@ jobs:
           fi
           ruby -v
       - name: Setup Ruby Gems
-        run: gem install bundler
+        run: gem install bundler --user-install
       - name: Install dependencies
         env:
           GEM_PATH: ${{ env.GEM_PATH }}
