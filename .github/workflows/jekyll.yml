@@ -46,13 +46,11 @@ jobs:
           fi
           ruby -v
       - name: Setup Ruby Gems
-        run: gem install bundler --user-install
-      - name: Install dependencies
-        env:
-          GEM_PATH: ${{ env.GEM_PATH }}
-          PATH: ${{ env.PATH }}
         run: |
-          bundle install --path vendor/bundle
+          gem install bundler --user-install
+          echo 'export PATH="$HOME/.local/share/gem/ruby/3.1.0/bin:$PATH"' >> $GITHUB_ENV
+      - name: Install dependencies
+        run: bundle install --path vendor/bundle
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
